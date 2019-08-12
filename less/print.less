@@ -20,9 +20,6 @@
         	max-width:400px !important;
     	}
 	
-	span[role=img][aria-label]::after
-		{	content: " (" attr(aria-label) ") "; }
-	
 	/* Article Block Slider */
 	.location-page body.contents-show #wrapper {
         width: 100% !important;
@@ -36,6 +33,9 @@
 		max-width: 700px !important;
 	}
 
+	.article-block-slider-enabled .component-header-inner {
+        margin-left: 0px;
+    }
 	.article-block-slider-enabled .has-arrows .block .block-inner {
 		padding: 0 !important;
 	}
